@@ -1,0 +1,7 @@
+add_sources(common.h log.hpp)
+add_sources(FaceDemo.h FaceDemo.cpp)
+add_sources(RecordModule.h RecordModule.cpp)
+add_sources(WarpUtils.h WarpUtils.cpp)
+add_sources(WarpingModule.h WarpingModule.cpp)
+add_sources(CLMTrackingModule.h CLMTrackingModule.cpp)
+add_sources(main.cpp)
