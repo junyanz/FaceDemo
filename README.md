@@ -47,4 +47,4 @@ Given an image or a video sequence that contains a face, the program can align a
    - 's':  toggle between flat and smooth shading.
    - 'w':  toggle between filled and wireframe mode.
    - 't':  toggle between static mode and transformation mode: for static mode, the 3D face model doesn't rotate and translate.
-   - 'q':  quite the program
+   - 'q':  quit the program
