@@ -27,7 +27,7 @@ Given an image or a video sequence that contains a face, the program can align a
 * Download and unzip the code.
 * mkdir cbuild
 * cd cbuild
-* cmake ../
+* cmake -DCMAKE_BUILD_TYPE=Release ..
 * make
 
 
