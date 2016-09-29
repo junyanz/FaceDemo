@@ -42,7 +42,6 @@ make
 * cmake -DCMAKE_BUILD_TYPE=Release ..
 * make
 
->>>>>>> 460e9c59cb7b56a7dc5453564065804f349f7c1c
 
 ## Usage
 1. Command line interface: `./FaceDemo mode filePath`  
