@@ -28,19 +28,14 @@ sudo apt-get install libxmu-dev libxi-dev
 
 ## Getting Started (Linux)
 * Download and unzip the code.
-<<<<<<< HEAD
+
 * Run the following command.
 ```bash
 mkdir cbuild
 cd cbuild
-cmake ../
+cmake -DCMAKE_BUILD_TYPE=Release  ../
 make
 ```
-=======
-* mkdir cbuild
-* cd cbuild
-* cmake -DCMAKE_BUILD_TYPE=Release ..
-* make
 
 
 ## Usage
