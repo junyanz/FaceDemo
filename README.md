@@ -1,5 +1,4 @@
 # FaceDemo: a simple 3D face alignment and warping demo
-[[Project]](http://www.eecs.berkeley.edu/~junyanz/projects/mirrormirror/)  
 Input: face image/video  
 
 <img src='data/bush.jpg' width=224>
@@ -11,7 +10,7 @@ Output: Textured 3D face model
 
 ## Overview
 This is the author's implementation of 3D face alignment and warping method described in:  
-Mirror Mirror: Crowdsourcing Better Portraits  
+[Mirror Mirror: Crowdsourcing Better Portraits](http://www.eecs.berkeley.edu/~junyanz/projects/mirrormirror/)  
 [Jun-Yan Zhu](https://people.eecs.berkeley.edu/~junyanz/), [Aseem Agarwala](http://www.agarwala.org/), [Alexei A. Efros](https://people.eecs.berkeley.edu/~efros/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), [Jue Wang](http://www.juew.org/)  
 In ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia 2014)  
 
