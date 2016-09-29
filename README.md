@@ -28,6 +28,7 @@ sudo apt-get install libxmu-dev libxi-dev
 
 ## Getting Started (Linux)
 * Download and unzip the code.
+<<<<<<< HEAD
 * Run the following command.
 ```bash
 mkdir cbuild
@@ -35,6 +36,13 @@ cd cbuild
 cmake ../
 make
 ```
+=======
+* mkdir cbuild
+* cd cbuild
+* cmake -DCMAKE_BUILD_TYPE=Release ..
+* make
+
+>>>>>>> 460e9c59cb7b56a7dc5453564065804f349f7c1c
 
 ## Usage
 1. Command line interface: `./FaceDemo mode filePath`  
@@ -52,4 +60,4 @@ make
    - `s`:  toggle between flat and smooth shading.
    - `w`:  toggle between filled and wireframe mode.
    - `t`:  toggle between static mode and transformation mode: for static mode, the 3D face model doesn't rotate and translate.
-   - `q`:  quite the program
+   - `q`:  quit the program
