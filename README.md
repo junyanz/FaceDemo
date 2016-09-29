@@ -1,10 +1,19 @@
 # FaceDemo
 [[Project]](http://www.eecs.berkeley.edu/~junyanz/projects/mirrormirror/)  
 
+# FaceDemo
+[[Project]](http://www.eecs.berkeley.edu/~junyanz/projects/mirrormirror/)  
+Input: face image/video  
+
+<img src='data/bush.jpg' width=224>
+
+Output: Textured 3D face model  
+
+<img src='data/demo.gif' width=224>
 
 
 ## Overview
-This is the authors' implementation of 3D face alignment and warping method described in:  
+This is the author's implementation of 3D face alignment and warping method described in:  
 Mirror Mirror: Crowdsourcing Better Portraits  
 [Jun-Yan Zhu](https://people.eecs.berkeley.edu/~junyanz/), [Aseem Agarwala](http://www.agarwala.org/), [Alexei A. Efros](https://people.eecs.berkeley.edu/~efros/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), [Jue Wang](http://www.juew.org/)  
 In ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia 2014)  

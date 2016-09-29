@@ -132,15 +132,15 @@ void arrowKeyPressed(int key, int x, int y) {
     switch (key) {
     case GLUT_KEY_UP:
         if (mod == GLUT_ACTIVE_SHIFT)
-            g_transY -= 0.01f;
-        else
-            g_rotateY += 5.0f;
-        break;
-    case GLUT_KEY_DOWN:
-        if (mod == GLUT_ACTIVE_SHIFT)
             g_transY += 0.01f;
         else
             g_rotateY -= 5.0f;
+        break;
+    case GLUT_KEY_DOWN:
+        if (mod == GLUT_ACTIVE_SHIFT)
+            g_transY -= 0.01f;
+        else
+            g_rotateY += 5.0f;
         break;
     case GLUT_KEY_LEFT:
         if (mod == GLUT_ACTIVE_SHIFT)
