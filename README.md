@@ -1,4 +1,4 @@
-# FaceDemo: a simple 3D face alignment and warping demo.
+# FaceDemo: a simple 3D face alignment and warping demo
 [[Project]](http://www.eecs.berkeley.edu/~junyanz/projects/mirrormirror/)  
 Input: face image/video  
 
