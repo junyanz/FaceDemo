@@ -10,7 +10,7 @@ Output: Textured 3D face model
 
 ## Overview
 This is the author's implementation of 3D face alignment and warping method described in:  
-[Mirror Mirror: Crowdsourcing Better Portraits](http://www.eecs.berkeley.edu/~junyanz/projects/mirrormirror/)  
+[Mirror Mirror: Crowdsourcing Better Portraits](http://efrosprojects.eecs.berkeley.edu/mirrormirror/)  
 [Jun-Yan Zhu](https://people.eecs.berkeley.edu/~junyanz/), [Aseem Agarwala](http://www.agarwala.org/), [Alexei A. Efros](https://people.eecs.berkeley.edu/~efros/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), [Jue Wang](http://www.juew.org/)  
 In ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia 2014)  
 
@@ -55,7 +55,7 @@ make
    - shift + arrow keys: translate the face.
    - arrow keys: rotate the face.
    - `+/-`: zoom in/out
-   - `p`:  toggle between perspective projection and orthogonal projection.
+   - `p`:  toggle between a perspective projection and an orthogonal projection.
    - `s`:  toggle between flat and smooth shading.
    - `w`:  toggle between filled and wireframe mode.
    - `t`:  toggle between static mode and transformation mode: for static mode, the 3D face model doesn't rotate and translate.
