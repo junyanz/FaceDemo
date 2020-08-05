@@ -11,10 +11,23 @@ Output: Textured 3D face model
 ## Overview
 This is the author's implementation of 3D face alignment and warping method described in:  
 [Mirror Mirror: Crowdsourcing Better Portraits](http://efrosprojects.eecs.berkeley.edu/mirrormirror/)  
-[Jun-Yan Zhu](https://people.eecs.berkeley.edu/~junyanz/), [Aseem Agarwala](http://www.agarwala.org/), [Alexei A. Efros](https://people.eecs.berkeley.edu/~efros/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), [Jue Wang](http://www.juew.org/)  
+[Jun-Yan Zhu](https://www.cs.cmu.edu/~junyanz/), [Aseem Agarwala](http://www.agarwala.org/), [Alexei A. Efros](https://people.eecs.berkeley.edu/~efros/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), [Jue Wang](http://www.juew.org/)  
 In ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia 2014)  
 
+[Project Page](http://efrosprojects.eecs.berkeley.edu/mirrormirror/)
+
 Please cite our paper if you use our code for your research.
+```
+@article{zhu2014mirror,
+ author = {Jun-Yan Zhu and Aseem Agarwala and Alexei A Efros and Eli Shechtman and Jue Wang},
+ title = {Mirror Mirror: Crowdsourcing Better Portraits},
+ journal = {ACM Transactions on Graphics (SIGGRAPH Asia 2014)},
+ volume = {33},
+ number = {6},
+ year = {2014},
+}
+
+```
 
 Given an image or a video sequence that contains a face, the program can align and warp the face to a 3D face model. The user can further rotate/translate the face, and adjust the camera projection (perspective projection or orthogonal projection). The program also provides different OpenGL rendering options. See **"Usage"** for details.
 
